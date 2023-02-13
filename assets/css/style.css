@@ -103,10 +103,7 @@ input {
     outline: none;
 }
 
-.margin-titre-populaires {
-    margin-left: 5%;
-    margin-right: 5%;
-}
+
 
 button:hover, #loupe {
 
@@ -315,8 +312,7 @@ form input, .bouton-rechercher {
 .container {
     display: flex;
     flex-direction: column;
-    /* margin: 10px; */
-    /*height: 109px; */
+
     width: 100%;
     margin-top: -11px;
     margin-left: 4px;
@@ -333,7 +329,7 @@ form input, .bouton-rechercher {
     flex: 2;
     height: 626px;
     border-radius: 20px;
-    margin-right: 25px;
+    margin-right: 35px;
     padding-left :30px;
     padding-right: 30px;
     padding-top: 10px;
@@ -404,10 +400,7 @@ form input, .bouton-rechercher {
 }
 /* Populaires */
 
-/* .container-populaires {
-    padding-left: 20px;
-    padding-right: 20px;
-} */
+
 
 .img-size-populaires {
     object-fit: cover;
@@ -422,7 +415,7 @@ form input, .bouton-rechercher {
 .card-populaires {
     
     height: 144px;
-    width: 90%;
+    width: 100%;
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.3);
     border-radius: 20px;
     padding : 4px;
@@ -432,9 +425,9 @@ form input, .bouton-rechercher {
     display: flex;
     align-content: space-between;
     padding-left: 5%;
-    /*width: 50%; */
+   
     flex-direction: column;
-    /* flex-wrap: wrap; */
+    
     justify-content: space-between;
     
 }
@@ -506,51 +499,7 @@ li {
 }
 
 /* media queries */
- /* @media all and (min-width: 992px){
 
-    .flex-recherche {
-        
-        display: flex;
-    }
-
-    .bouton-rechercher {
-        width: 132px;
-        border-top-right-radius: 10px;
-        border-bottom-right-radius: 10px;
-        margin-left: -7px;
-        color: white;
-        background-color: #0065FC;
-       
-    }
-    #loupe {
-        display: none;
-    }
-    .filtre-wrap {
-        display: flex;
-    }
-    body {
-        align-items: flex-start;
-        width: 90%;
-
-    }
-    .bloc-formulaire {
-        width: 100%;
-    }
-    .info {
-        width: 100%;
-    }
-    .bloc-filtre{
-        width: 100%;
-    }
-    
-    .container-hébergement-global{
-        width: 100%;
-    }
-    footer {
-        margin-bottom: 0px;
-    }
-}
- */
 @media all  and (max-width:992px) {
 
     body {
@@ -800,8 +749,13 @@ li {
     }
     .container-hébergement-global {
         flex-direction: column-reverse;
+        width: 100%;
     }
 
+    .margin-titre-populaire-tablette {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
     .card-populaires {
         height: 144px;
         width: 90%;
